@@ -1,5 +1,7 @@
-.button {
-    background-color: red;
-    color: white;
-
+.nav {
+    button {
+        &+button {
+            margin-top: 8px;
+        }
+    }
 }
